@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<body>
+    <form action="application.php" method="post">
+        <table>
+            <tr>
+                <td colspan="2">
+                    <h3>ใบสมัครงาน</h3>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="name">ชื่อ: </label>
+                <input type="text" id="name" name="name" required>
+                </td>
+
+                <td><label for="name">นามสกุล:</label>
+                <input type="text" id="name" name="name" required /></td>
+            </tr>
+            <tr>
+                <td><label for="email">อีเมล</label></td>
+                <td><input type="email" id="email" name="email" rows="1" cols="20" required /></td>
+            </tr>
+            <tr>
+                <td><label for="website">เว็บไซต์ผลงาน</label></td>
+                <td><input type="website" id="website" name="website" rows="1" cols="20" required /></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" rows="1" cols="20" required /></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" rows="1" cols="20" required /></td>
+            </tr>
+        </table>
+        
+        <table>
+            <tr>
+                <!-- <td colspan="2"> -->
+                    <!-- <h3>Payment Information</h3> -->
+                <!-- </td> -->
+            </tr>
+            <tr>
+                
+                <label for="ask">คุณสะดวกที่จะย้ายที่อยู่หรือไม่</label></td>
+                <td>
+                    <input type="radio" id="able" name="ask" value="สะดวก" required> <label
+                        for="able">สะดวก</label>
+                    <input type="radio" id="unable" name="ask" value="ไม่สะดวก" required> <label
+                        for="unable">ไม่สะดวก</label>
+                    <input type="radio" id="notsure" name="ask" value="ไม่แน่ใจ" required > <label
+                        for="notsure">ไม่แน่ใจ</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center"> <button type="submit">ส่งใบสมัคร</button> </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
