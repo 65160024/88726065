@@ -1,19 +1,35 @@
-<!DOCTYPE html>
+<!-- ประกาศ DOCTYPE เพื่อระบุว่าไฟล์นี้เป็น HTML5 -->
+<!DOCTYPE html> 
+<!-- เปิดแท็ก html และระบุภาษาในการเขียนเว็บไซต์เป็นภาษาอังกฤษ -->
 <html lang="en">
+
+    <!-- ในส่วนนี้ระบุ meta tag สำหรับการกำหนด charset และ viewport, ระบุ title ของหน้าเว็บ, และเชื่อมโยงไฟล์ CSS -->
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Todo</title>
 <link rel="stylesheet" href="styles.css" />
 </head>
+
+<!-- เริ่มต้นส่วนที่ใช้แสดงเนื้อหาที่เป็นส่วนหลักของหน้าเว็บ -->
 <body>
 <!-- ตัวอย่างโปรแกรม Todo เขียนด้วย html css JavaScript และเก็บข้อมูล Todo items ใน อะเรย์ -->
+<!-- เริ่มต้นส่วนของ HTML -->
 <h1>Todo Lists</h1>
+
+<!-- กล่อง input สำหรับเพิ่มรายการใหม่ -->
 <input type="text" id="todo-input" placeholder="เพิ่มรายการใหม"่ />
+
+<!-- ปุ่มเพิ่มรายการ -->
 <button id="add-button">เพิ่ม</button>
+
+<!-- รายการ Todo ที่แสดง -->
 <ul id="todo-list">
+
 <!-- รายการที่เพิ่มจะแสดงที่นี่ -->
 </ul>
+
+<!-- ส่วนสำหรับไฟล์ JavaScript -->
 <script src="scripts.js"></script>
 </body>
 </html>
