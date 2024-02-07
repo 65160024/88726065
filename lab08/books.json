@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "Healthy",
+      "price": "100",
+      "author": [
+        "Madam.GG"
+  
+      ]
+    },
+    {
+      "id": 2,
+      "name": "How to cook",
+      "price": "200",
+      "author": [
+        "Nong-A",
+        "P'Bee",
+        "Pah-pah"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "English for work",
+      "price": "300",
+      "author": [
+        "Teacher.Jo"
+  
+      ]
+    }
+  ]
